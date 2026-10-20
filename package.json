@@ -1,0 +1,21 @@
+{
+  "name": "cove-private-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Cove: a privacy-first personal agent with local memory and optional cloud escalation.",
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env --watch src/server.ts",
+    "start": "node --env-file-if-exists=.env src/server.ts",
+    "test": "node --test test/*.test.ts",
+    "model:setup": "sh scripts/setup-ollama-model.sh",
+    "model:start": "sh scripts/start-ollama-model.sh",
+    "model:setup:mlx": "sh scripts/setup-mlx-model.sh",
+    "model:start:mlx": "sh scripts/start-mlx-model.sh",
+    "model:benchmark": "node scripts/benchmark-local-model.ts",
+    "voice:setup": "sh scripts/setup-voice.sh"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

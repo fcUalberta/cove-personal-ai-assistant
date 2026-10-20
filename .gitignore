@@ -1,0 +1,10 @@
+.data/*
+!.data/.gitkeep
+.env
+node_modules/
+.venv/
+.cache/
+*.log
+.DS_Store
+__pycache__/
+*.pyc

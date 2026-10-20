@@ -1,0 +1,82 @@
+.email-preview {
+  margin-top: 11px;
+  padding: 11px;
+  border-radius: 9px;
+  background: #f2f5f2;
+  border-left: 3px solid #8aa294;
+  font-size: 12px;
+  color: #405149;
+}
+
+.email-preview p {
+  color: #405149;
+  margin-top: 7px;
+}
+
+.chat-choice {
+  border: 1px solid #cbd8cf;
+  background: #f7faf7;
+}
+
+.choice-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.choice-buttons button {
+  min-height: 36px;
+  padding: 0 13px;
+  border: 0;
+  border-radius: 9px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.choice-buttons .primary {
+  background: #193a33;
+  color: white;
+}
+
+.choice-buttons .secondary {
+  background: #e2e9e3;
+  color: #193a33;
+}
+
+.chat-quick-actions {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  flex-wrap: wrap;
+  padding: 10px 16px 0;
+  border-top: 1px solid #dfe3de;
+}
+
+.chat-quick-actions span {
+  margin-right: 2px;
+  color: #78857f;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.chat-quick-actions button {
+  border: 1px solid #d2dbd4;
+  border-radius: 999px;
+  background: #f8faf8;
+  color: #29433a;
+  padding: 7px 10px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.chat-quick-actions button:hover {
+  background: #e7eee8;
+}
+
+.mic-button.listening {
+  background: #b84737;
+  color: white;
+  box-shadow: 0 0 0 4px rgba(184, 71, 55, .14);
+}
